@@ -45,6 +45,11 @@ public class Conta {
             JOptionPane.showMessageDialog(null, "Quantia de saque inválido ou saque insuficiente!");
         }
     }
+
+	@Override
+	public String toString() {
+		return "Conta [numeroDaConta=" + numeroDaConta + ", pin=" + pin + ", saldo=" + saldo + "]";
+	}
 	
 	
 }
