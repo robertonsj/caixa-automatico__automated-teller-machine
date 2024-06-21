@@ -55,6 +55,7 @@ public class CaixaAutomatica {
 					JOptionPane.showMessageDialog(
 							null, "Obrigado por Usar o Caixa Automático. Até Mais!"
 					);
+                                        System.exit(0);
 					break;
 					
 					default:
