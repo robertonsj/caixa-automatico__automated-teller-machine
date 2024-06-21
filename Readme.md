@@ -7,7 +7,7 @@ Dados armazenados: número da conta, pin e saldo.
 - Realizar saques
 - Visualizar saldo bancário
 
-## Interfaces
+## User Interfaces
 
  
 
