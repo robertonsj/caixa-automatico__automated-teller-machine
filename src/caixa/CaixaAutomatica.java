@@ -28,7 +28,8 @@ public class CaixaAutomatica {
 				
 				switch(choice) {
 				case 0: //Visualizar saldo
-					JOptionPane.showMessageDialog(null, "Saldo atual: R$" + conta.getSaldo());
+					JOptionPane.showMessageDialog(null, "Saldo atual: R$" + 
+				DoubleFormatterStatic.format(conta.getSaldo()));
 					break;
 					
 				case 1: //Depositar
