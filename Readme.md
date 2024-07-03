@@ -9,7 +9,9 @@ Dados armazenados: número da conta, pin e saldo.
 
 ## User Interfaces
 Interfaces de interação do usuário.
+### Input Pin
 ![Input Pin](inputPin.png)
+### Options Menu
 ![Options Menu](optionsMenu.png)
 
 ## How to Run
@@ -37,7 +39,7 @@ balance inquiry, deposit and withdrawal operations.
 - Error Logging: Include logging to track errors and activities using Java's logging framework.
 By enhancing these aspects, the program can transition from a basic/intermediate level to a more advanced level, making it robust, secure, and ready for real-world application scenarios.
 
-## Creating a Class to Format Double Data Types
+### Creating a Class to Format Double Data Types
 Creating a class in Java to format double data types can be useful for ensuring consistent display of numeric values, such as controlling the number of decimal places, using specific locale settings, or applying custom formatting patterns. 
 
 1. Constructors:
@@ -50,7 +52,7 @@ Creating a class in Java to format double data types can be useful for ensuring 
 * setPattern(String pattern): Changes the formatting pattern if the current formatter supports patterns.
 * setLocale(Locale locale): Changes the locale for the formatter, useful for locale-specific formatting.
 
-### Usage:
+#### Usage:
 * The DoubleFormatter class can format double values according to different patterns and locales.
 * You can dynamically change the formatting pattern or locale using the provided methods.
 This class provides a flexible way to handle the formatting of double values in various ways, which can be particularly useful in applications where numeric formatting needs to be consistent and customizable.
